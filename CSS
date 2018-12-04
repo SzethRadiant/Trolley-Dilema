@@ -1,26 +1,29 @@
-
-ul {
+ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ccccff
+    background-color: #ff9933
 
 }
+body {
+  background-color: #ffccff
+}
 
-li {
+ol li {
     float: left;
 }
 
-li a {
+ol li a {
     display: block;
-    color: #56752a;
+    color: #ff9933;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #ccffcc;
+ol li a:hover {
+    background-color: #ff9933;
 }
+
 
